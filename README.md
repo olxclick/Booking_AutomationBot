@@ -23,3 +23,10 @@ Key Features
 ✅ Error Handling & Resilience – Implements exception handling to retry actions in case of stale elements or page reloads.
 
 Project Structure
+
+📂 booking/  (Main project directory)
+│-- 📄 main.py           # Entry point; handles user input and starts the bot
+│-- 📄 booking.py        # Defines the Booking class, which controls browser interactions
+│-- 📄 booking_filters.py # Manages search filters (e.g., star rating, lowest price)
+│-- 📄 constants.py      # Contains helper functions for waiting on elements and the base URL
+│-- 📄 input.py          # Handles date calculations for check-in and check-out
